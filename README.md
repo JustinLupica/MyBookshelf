@@ -1,15 +1,74 @@
-# README
+# My Bookshelf App
 
-This Application lets you keep track of any and all books that you have surrently sitting on your bookshelf!
+> Welcome to the My Bookshelf Application! Discover new books, preview what books you like in the built-in viewer, and save the books you really like for later!
 
-If you are anything like me, you probably have more books than you know what to do with..
+---
 
-I can't hardly keep track of them all!
+### Table of Contents
 
-So I created this handy application that will let you manually enter in the Title, Author, and ISBN (International Standard Book Number; or ID for short!)
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [License](#license)
+- [Author Info](#author-info)
 
-This way you will be able to keep track of all the books you have... somewhere around here...
+---
 
-I have also added a pretty cool feature that allows you to search for a book topic that interests you, and recieve back related books from the Google Book API!
+#### Technologies
 
-There is also a "Read Book" button that will allow you to preview the book in a viewer page (if that books allows for a preview viewing)
+- Vanilla Javascript
+- Ruby on Rails API (backend)
+- SQLite3 Database
+
+[Back To The Top](#read-me-template)
+
+---
+
+#### Installation
+
+- Fork and Clone this repo to your machine.
+- install all the dependencies
+- CD into the backend and start up the Rails server by running 'rails s'
+- CD back into the frontend and start up your dev server by running 'explorer.exe index.html'
+- Have fun exploring the app!
+
+#### API Reference
+
+- This project gets it recipe data from the Google Books API, and even lets you purchase the books you like while in the embedded viewer!
+
+[Back To The Top](#read-me-template)
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) [2017] [Justin Lupica]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Back To The Top](#read-me-template)
+
+---
+
+## Author Info
+
+- Twitter - [@Justin_Lupica](https://twitter.com/Justin_Lupica)
+
+[Back To The Top](#read-me-template)
